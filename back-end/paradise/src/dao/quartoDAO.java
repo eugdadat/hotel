@@ -42,7 +42,6 @@ public class quartoDAO {
         return quartos;
     }
 
-    // metodo para pegar o valor da diaria para calcular o valor da locação
     public float getValorDiaria(long id_quarto) throws SQLException {
         String sql = "SELECT valor_diaria FROM quarto WHERE id_quarto = ?";
         
@@ -57,7 +56,6 @@ public class quartoDAO {
                 }
             }
         }
-        // Se o loop não encontrar o quarto, lança exceção
         throw new SQLException("Quarto com ID " + id_quarto + " não encontrado.");
     }
     
