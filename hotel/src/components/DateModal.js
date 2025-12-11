@@ -39,9 +39,9 @@ const DateModal = ({ room, onConfirm, onClose }) => {
         </div>
 
         <div className="room-modal-info">
-          <h3>Quarto {room.number} - {room.type}</h3>
+          <h3>Quarto {room.numero} - {room.tipo}</h3>
           <p>{room.bedType}</p>
-          <p className="room-price">R$ {room.price}/noite</p>
+          <p className="room-price">R$ {room.valor_diaria}/noite</p>
         </div>
 
         <form onSubmit={handleSubmit} className="date-form">

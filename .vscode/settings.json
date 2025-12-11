@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "back-end/paradise/lib/gson-2.13.1.jar",
+        "back-end/paradise/lib/javax.servlet-api-3.1.0.jar",
+        "back-end/paradise/lib/jetty-http-9.4.53.v20231009.jar",
+        "back-end/paradise/lib/jetty-io-9.4.53.v20231009.jar",
+        "back-end/paradise/lib/jetty-server-9.4.53.v20231009.jar",
+        "back-end/paradise/lib/jetty-servlet-9.4.53.v20231009.jar",
+        "back-end/paradise/lib/jetty-util-9.4.53.v20231009.jar",
+        "back-end/paradise/lib/mysql-connector-j-9.4.0.jar",
+        "back-end/paradise/lib/slf4j-api-2.0.17.jar",
+        "back-end/paradise/lib/slf4j-simple-2.0.17.jar",
+        "back-end/paradise/lib/spark-core-2.9.4.jar"
+    ]
+}

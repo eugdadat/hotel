@@ -11,11 +11,10 @@ const RoomCard = ({ room, isSelected, onSelect }) => {
       onClick={handleClick}
     >
       <div className="room-info">
-        <h3>Quarto {room.number}</h3>
-        <span className="room-type">{room.type}</span>
-        <p className="room-bed">{room.bedType}</p>
+        <h3>Quarto {room.numero}</h3>
+        <span className="room-type">{room.tipo}</span>
         <div className="room-price">
-          <strong>R$ {room.price}</strong> / noite
+          <strong>R$ {room.valor_diaria}</strong> / noite
         </div>
         <button className={`select-button ${isSelected ? 'selected' : ''}`}>
           {isSelected ? '✓ Selecionado' : 'Selecionar'}
